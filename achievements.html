@@ -2,12 +2,13 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<link rel="stylesheet" type="text/css" href="css/general.css"/>
-		<link rel="stylesheet" type="text/css" href="css/video.css"/>
+		<link rel="stylesheet" type="text/css" href="css/general.css" />
+		<link rel="stylesheet" type="text/css" href="css/achievements.css" />
 		<script type="text/javascript" src="script/time.js"></script>
-		<script srctype="text/javascript" src="script/html5media.min.js">
+		<script src="http://libs.baidu.com/jquery/2.1.4/jquery.min.js"></script>
+		<script srctype="text/javascript" src="script/enlarge.js">
 		</script>
-		<title></title>
+		<title>Achievements</title>
 	</head>
 	<body onload="time()">
 		<!--header-->
@@ -26,9 +27,18 @@
 			<div onclick="window.location.href='messageboard.html'">Message Board</div>
 			<div onclick="window.location.href='about.html'">About</div>
 		</div>
-		<h1 id="h1" style="padding-top: 160px;margin-left: 20%;color: #ffffff;width: 60%;font-size: 40px;z-index: 1;">Video Share: When Yogurt Took Over</h1>
-		<video src="files/Love.Death.and.Robots.S01E06.When.the.Yogurt.Took.Over.MP4" width="50%" height="50%" poster="image/OIP.jpg" controls="controls" preload></video>
-		<section id="discription">The short film tells the audience a sci-fi story about the rapid evolution of yogurt from "evolution" to ruling the earth to the universe. What I think is particularly interesting is that it is different from other science fiction films. It describes a new kind of "race" from awakening to breaking free from human control and finally ruling the earth. In fact, it does not need to launch any genocide plan or large-scale war. It only needs to use "normal" political, economic, and technological means.</section>
+		<h1 id="h1" style="padding-top: 160px;margin-left: 20%;color: #ffffff;width: 60%;font-size: 40px;z-index: 1;">
+			Achievements</h1>
+		<section id="achievements">
+			<img src="image/1638632584214.jpg" class="pic" onclick="enlarge(this)" />
+			<section>1st Award (Team) in Hebei Innovation Competition</section>
+			<img src="image/qq_pic_merged_1638633040592.jpg" class="pimg" onclick="enlarge(this)" />
+			<section>2nd Award (Team) of HeBUST STEM Innovation and Start-up Competition</section>
+		</section>
+		<div id="divimg"
+			style="cursor:zoom-out;background: rgba(0,0,0,.6);width:100%;height:100%;position: fixed;z-index: 9999;left: 0;top: 0;display: none">
+			<img style="width: 800px;left: 50%;top:50%;margin-left: -400px;position: fixed; transition: 0.2s;" onclick="fadeout(this)">
+		</div>
 		<!--footer-->
 		<div id="foot">
 			<div class="logo"></div>

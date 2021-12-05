@@ -3,9 +3,9 @@
 	<head>
 		<meta charset="utf-8">
 		<link rel="stylesheet" type="text/css" href="css/general.css"/>
-		<link rel="stylesheet" type="text/css" href="css/messageboard.css"/>
-		<script type="text/javascript" src="script/time.js"></script>
-		<script src="script/messageboard.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="css/about.css"/>
+		<script type="text/javascript" src="script/time.js">
+		</script>
 		<title></title>
 	</head>
 	<body onload="time()">
@@ -25,16 +25,17 @@
 			<div onclick="window.location.href='messageboard.html'">Message Board</div>
 			<div onclick="window.location.href='about.html'">About</div>
 		</div>
-		<h1 id="h1" >Message Board</h1>
-		<div class="messageboard">
-			<h1>Feel free to message me!</h1>
-			<textarea id="dome" cols="60"rows="10" placeholder="text here!"></textarea><br/>
-			<input type="button" value="save" onclick="savaStorage('dome');">
-			<input type="button" value="clear" onclick="clearStorage('msg')";>
-			<input type="button" value="read" onclick="loadStorage('msg')";>
-			<p id="msg"></p>
-			</body>
-		</div>
+		<h1 id="h1">About me</h1>
+		<div id="note">
+					<div class="note">
+						<div class="title">about me</div>
+						<div class="text">
+							Please feel free to contact me by following icons.
+							</br>
+							<a href="https://baidu.com/" target="_blank"><img src="./image/qq.png" alt="QQ"></a><a href="https://dwx256.cn:5001/" target="_blank"><img src="./image/weibo.png"></a><img src="./image/mail.png">
+						</div>
+					</div>
+				</div>
 		<!--footer-->
 		<div id="foot">
 			<div class="logo"></div>
