@@ -1,0 +1,39 @@
+body {
+	background: url("../image/bg.jpeg") no-repeat center center fixed;
+	background-size: cover;
+	background-color: #333333;
+}
+#achievements{
+	margin-left: 25%;
+	margin-top: 5%;
+	position: absolute;
+	width: 50%;
+	height: 150%;
+	border-radius: 20px;
+	background: rgba(0, 0, 0, 0.75);
+	float: left;
+	
+}
+.divZoom {
+            display: none;
+            border: 5px solid #c0c0c0;
+            top: 27%;
+            left: 3%;
+            width: 90%;
+            position: absolute;
+        }
+#achievements img{
+	border-radius: 20px;
+	width: 80%;
+	margin-top: 20px;
+	margin-left: 10%;
+	margin-bottom: 20px;
+}
+#achievements section{
+	color: #F0F8FF;
+	width: 100%;
+	text-align: center;
+}
+#foot{
+	top: 200%;
+}

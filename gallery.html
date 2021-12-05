@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/general.css"/>
+		<link rel="stylesheet" type="text/css" href="css/gallery.css"/>
+		<script type="text/javascript" src="script/time.js">
+		<script src="script/gallery.js" type="text/javascript" charset="utf-8"></script>
+		<title></title>
+	</head>
+	<body onload="time()">
+		<!--header-->
+		<div id="header"></div>
+		<!--background img-->
+		<div id="bg"></div>
+		<!--navigation bar-->
+		<div id="nav">
+			<div onclick="window.location.href='index.html'">Home</div>
+			<div onclick="window.location.href='education.html'">Education</div>
+			<div onclick="window.location.href='video.html'">Video</div>
+			<div onclick="window.location.href='gallery.html'">Gallery</div>
+			<div onclick="window.location.href='achievements.html'">Achievements</div>
+			<div onclick="window.location.href='interests.html'">Interests</div>
+			<div onclick="window.location.href='tools.html'">Tools</div>
+			<div onclick="window.location.href='messageboard.html'">Message Board</div>
+			<div onclick="window.location.href='about.html'">About</div>
+		</div>
+		<h1 id="h1" style="padding-top: 160px;margin-left: 20%;color: #ffffff;width: 60%;font-size: 40px;z-index: 1;">Gallery of FH4</h1>
+		<!--gallery and its switch-->
+		<img src="image/7.jpg" id="show">
+		<div id="switch">
+			<div onmouseover="Switch('image/1.jpg')">01</div>
+			<div onmouseover="Switch('image/2.jpg')">02</div>
+			<div onmouseover="Switch('image/3.jpg')">03</div>
+			<div onmouseover="Switch('image/4.jpg')">04</div>
+			<div onmouseover="Switch('image/5.jpg')">05</div>
+			<div onmouseover="Switch('image/6.jpg')">06</div>
+			<div onmouseover="Switch('image/7.jpg')">07</div>
+		</div>
+		<!--footer-->
+		<div id="foot">
+			<div class="logo"></div>
+			<div class="box">
+				<p>©2019-2021 DWX256</p>
+				<p>冀ICP备1145141919810</p>
+			</div>
+			<ul>Links
+				<li><a href="http://www.th-sjy.com/">th-sjy Software</a></li>
+				<li><a href="https://www.jokerps.com//">Joker's Collections</a></li>
+				<li><a href="https://www.bilibili.com/">bilibili</a></li>
+			</ul>
+			<ul>Contact Me
+				<li></li>
+				<li><a href="https://qq.com/" target="_blank"><img src="./image/qq.png" alt="QQ"></a><a href="https://weibo.com/" target="_blank"><img src="./image/weibo.png"></a><a href="mail://wenxuanduan@students.federation.edu.au"></a><img src="./image/mail.png"></li>
+				<li id="time"></li>
+			</ul>
+		</div>
+	</body>
+</html>

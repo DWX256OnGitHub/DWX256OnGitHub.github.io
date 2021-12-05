@@ -1,0 +1,162 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+::-webkit-scrollbar {
+	width: 10px;
+	height: auto;
+}
+
+::-webkit-scrollbar-track {
+	background: rgba(0, 0, 0, 0);
+}
+
+::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	background: #FFF;
+}
+
+div {
+	text-align: center;
+	color: #FFF;
+}
+
+a {
+	text-decoration: none;
+	color: #FFF;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#header {
+	position: fixed;
+	width: 100%;
+	height: 1px;
+	z-index: 999;
+	background: #333;
+	box-shadow: 0px 0px 100px 50px #000;
+}
+
+#nav {
+	position: fixed;
+	z-index: 9999;
+	right: 0rem;
+	height: 50px;
+	top: 0px;
+	left: 10px;
+}
+
+#nav div {
+	float: left;
+	width: 11%;
+	height: 50px;
+	line-height: 50px;
+	color: #FFF;
+	font-size: 18px;
+	text-align: center;
+	transition: 0.3s;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	text-shadow: 0px 0px 1px #fff;
+}
+
+#nav div:hover {
+	color: #000;
+	background: #FFF;
+	transition: 0.3s;
+	height: 45px;
+	border-top: 5px solid Orange;
+	text-align: center;
+	text-shadow: 0px 0px 0px #000;
+	text-decoration: underline;
+	box-shadow: 0px 0px 2px 0px #FFFFFF;
+	cursor: pointer;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+#h1 {
+	padding-top: 150px;
+	margin-left: 20%;
+	color: #ffffff;
+	width: 60%;
+	font-size: 40px;
+	z-index: 1;
+	text-shadow: 0px 0px 5px #000;
+}
+
+#foot {
+	position: absolute;
+	z-index: 9;
+	left: 0px;
+	right: 0px;
+	height: 15.625rem;
+	bottom: 0px;
+	font-size: 16px;
+	background: rgba(0, 0, 0, 0.75);
+	border-top-left-radius: 1.25rem;
+	border-top-right-radius: 1.25rem;
+}
+
+#foot .logo {
+	float: left;
+	width: 100px;
+	height: 100px;
+	margin-top: 90px;
+	margin-left: 20%;
+	background: url(../image/consensorship.bmp);
+	background-position: center center;
+	background-size: cover;
+	border-radius: 1.25rem;
+}
+
+#foot .box {
+	float: left;
+	width: auto;
+	height: 100px;
+	margin-top: 50px;
+	right: 10%;
+	padding: 25px 25px;
+	text-align: left;
+}
+
+#foot .box p {
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+}
+
+#foot ul {
+	float: left;
+	width: 20%;
+	height: 150px;
+	margin-top: 50px;
+}
+
+#foot ul li {
+	list-style: none;
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	margin-left: 10px;
+	margin-right: 10px;
+	border-left: 1px solid #FFF;
+}
+
+#foot ul li img {
+	list-style: none;
+	width: 50px;
+	height: 50px;
+	transition: 0.3s;
+	line-height: 50px;
+}
+
+#foot ul li img:hover {
+	width: 60px;
+	line-height: 60px;
+	height: 60px;
+	transition: 0.3s;
+}

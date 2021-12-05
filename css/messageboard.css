@@ -1,0 +1,29 @@
+body {
+	background: url("../image/IMAG0485.jpg") no-repeat center center fixed;
+	background-size: cover;
+	background-color: #333333;
+}
+#h1{
+	width: 60%;
+	text-align: center;
+}
+
+.messageboard {
+	position: absolute;
+	width: 50%;
+	height: auto;
+	left: 25%;
+}
+
+#msg {
+	position: relative;
+
+}
+table{
+	left: 10%;
+	float: left;
+	width: 80%;
+}
+#foot{
+	top: 120%;
+}

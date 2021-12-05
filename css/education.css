@@ -1,0 +1,102 @@
+body {
+	background: url("../image/bg.jpeg") no-repeat center center fixed;
+	background-size: cover;
+	background-color: #333333;
+}
+
+#edu{
+	width: 60%;
+	position: absolute;
+	height: calc(80% + 200px);
+	top: 200px;
+	margin-top: 5%;
+	left: 20%;
+	right: 20%;
+	color: #FFF;
+	background: rgba(0, 0, 0, 0.75);
+	border-radius: 1.25rem;
+}
+#edu .ms{
+	background: rgba(240,248,255,0.90);
+	margin-left: 5%;
+	margin-top: 5%;
+	width: 90%;
+	height: 200px;
+	line-height: 300px;
+	font-size: 24px;
+	border-radius: 1.25rem;
+}
+#edu .ms img{
+	border-radius: 20px;
+	margin: 0.625rem;
+	width: 180px;
+	height: 180px;
+}
+#edu .ms p{
+	left: auto;
+	float: right;
+	top: 10px;
+	width: 70%;
+	font-size: 18px;
+	margin: 10px;
+	line-height: 20px;
+	color: #000000;
+	overflow: auto;
+}
+#edu .hs{
+	background: rgba(240,248,255,0.90);
+	margin-left: 5%;
+	margin-top: 5%;
+	width: 90%;
+	height: 200px;
+	line-height: 300px;
+	font-size: 24px;
+	border-radius: 1.25rem;
+}
+#edu .hs img{
+	border-radius: 20px;
+	margin: 0.625rem;
+	width: 180px;
+	height: 180px;
+}
+#edu .hs p{
+	left: auto;
+	float: right;
+	top: 10px;
+	width: 70%;
+	font-size: 18px;
+	margin: 10px;
+	line-height: 20px;
+	color: #000000;
+	overflow: auto;
+}
+#edu .uni{
+	background: rgba(240,248,255,0.90);
+	margin-left: 5%;
+	margin-top: 5%;
+	width: 90%;
+	height: 200px;
+	line-height: 300px;
+	font-size: 24px;
+	border-radius: 1.25rem;
+}
+#edu .uni img{
+	border-radius: 20px;
+	margin: 0.625rem;
+	width: 180px;
+	height: 180px;
+}
+#edu .uni p{
+	left: auto;
+	float: right;
+	top: 10px;
+	width: 70%;
+	font-size: 18px;
+	margin: 10px;
+	line-height: 20px;
+	color: #000000;
+	overflow: auto;
+}
+#foot{
+	top:1100px;
+}

@@ -1,0 +1,49 @@
+body {
+	background: url("../image/Forza%20Horizon%204%202019_10_1%2021_17_53.png") no-repeat center center fixed;
+	background-size: cover;
+	background-color: #333333;
+}
+
+#show {
+	margin-top: 20px;
+	margin-left: 10%;
+	width: 80%;
+	height: 80%;
+	left: 10%;
+}
+
+#switch {
+	width: auto%;
+	height: 50px;
+	margin-left: 25%;
+	margin-top: 2%;
+	border-radius: 1.25rem;
+	
+}
+
+#switch div {
+	float: left;
+	width: 10%;
+	height: 44px;
+	line-height: 44px;
+	text-align: center;
+	color: #FFF;
+	font-family: Michroma;
+	font-size: 18px;
+	text-shadow: 0px 0px 3px #000;
+	transition: background 0.3s;
+	background-color: rgba(0,0,0,0.75);
+}
+
+#switch div:hover {
+	color: #000;
+	background: #FFF;
+	transition: background 0.3s;
+	border-bottom: 5px solid Orange;
+	text-shadow: 0px 0px 0px #000;
+	cursor: pointer;
+}
+
+#foot{
+	top: calc(115% + 200px);
+}

@@ -1,0 +1,36 @@
+body {
+	background: url("../image/bg.jpeg") no-repeat center center fixed;
+	background-size: cover;
+	background-color: #333333;
+}
+
+.h2{
+	margin-top: 5%;
+	color: #ffffff;
+	width: 50%;
+	float: left;
+	font-size: 25px;
+	text-shadow: 0px 0px 3px #000;
+	transition: 0.3s;
+	text-align: center;
+}
+.h2:hover{
+	color: #000;
+	background: #FFF;
+	transition: background 0.3s;
+	border-bottom: 5px solid Orange;
+	text-shadow: 0px 0px 0px #000;
+	cursor: pointer;
+}
+#tools{
+	margin-top: 5%;
+	top: 35%;
+	left: 5%;
+	width: 90%;
+	height: calc(90%);
+	position: absolute;
+	z-index: 1;
+}
+#foot{
+	top: 140%;
+}

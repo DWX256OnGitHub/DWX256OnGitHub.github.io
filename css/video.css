@@ -1,0 +1,24 @@
+body {
+	background: url("../image/Love-Death-and-Robots.jpg") no-repeat center center fixed;
+	background-size: cover;
+	background-color: #333333;
+}
+video {
+	margin-left: 25%;
+	margin-top: 5%;
+}
+#discription{
+	margin-top: 1%;
+	margin-left: 20%;
+	width: 60%;
+	height: 10%;
+	color: aliceblue;
+	background: rgba(0,0,0,0.75);
+	padding: 20px;
+	border-radius: 20px;
+}
+#foot{
+	bottom: 0px;
+	top:calc(100% + 200px);
+	
+}

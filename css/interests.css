@@ -1,0 +1,50 @@
+body {
+	background: url("../image/bg.jpeg") no-repeat center center fixed;
+	background-size: cover;
+	background-color: #333333;
+}
+#i {
+	position: absolute;
+	margin-left: 5%;
+	margin-top: 5%;
+	width: 90%;
+	height: 90%;
+	background: url(../image/Lego-McLaren-Senna.jpg);
+	background-position: center right;
+}
+
+#i section {
+	float: left;
+	width: 20%;
+	height: 100%;
+	line-height: 450px;
+	color: #FFFFFF;
+	font-size: 24px;
+	text-align: center;
+	text-shadow: 0px 0px 5px #000;
+	transition: width 0.5s;
+	background-position: 20% 0%;
+}
+
+#i section:hover {
+	width: 60%;
+	transition: width 0.5s;
+}
+
+#i .iot {
+	background: url(../image/1638635687006.jpg);
+	background-size: cover;
+}
+
+#i .photography {
+	background: url(../image/1638635740174.jpg);
+	background-size: cover;
+}
+
+#i .fh5 {
+	background: url(../image/fh5.jpg);
+	background-size: cover;
+}
+#foot{
+	top: 150%;
+}
