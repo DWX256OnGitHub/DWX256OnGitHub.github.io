@@ -2,8 +2,8 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<link rel="stylesheet" type="text/css" href="css/general.css"/>
-		<link rel="stylesheet" type="text/css" href="css/messageboard.css"/>
+		<link rel="stylesheet" type="text/css" href="css/general.css" />
+		<link rel="stylesheet" type="text/css" href="css/messageboard.css" />
 		<script type="text/javascript" src="script/time.js"></script>
 		<script src="script/messageboard.js" type="text/javascript" charset="utf-8"></script>
 		<title></title>
@@ -25,33 +25,37 @@
 			<div onclick="window.location.href='messageboard.html'">Message Board</div>
 			<div onclick="window.location.href='about.html'">About</div>
 		</div>
-		<h1 id="h1" >Message Board</h1>
+		<h1 id="h1">Message Board</h1>
 		<div class="messageboard">
 			<h1>Feel free to message me!</h1>
-			<textarea id="dome" cols="60"rows="10" placeholder="text here!"></textarea><br/>
-			<input type="button" value="save" onclick="savaStorage('dome');">
-			<input type="button" value="clear" onclick="clearStorage('msg')";>
-			<input type="button" value="read" onclick="loadStorage('msg')";>
+			<form action="" method="post">
+				<textarea id="dome" cols="60" rows="10" placeholder="text here!"></textarea><br />
+				<input type="button" value="save" onclick="savaStorage('dome');">
+				<input type="button" value="clear" onclick="clearStorage('msg')" ;>
+				<input type="button" value="read" onclick="loadStorage('msg')" ;>
+			</form>
 			<p id="msg"></p>
-			</body>
+	</body>
+	</div>
+	<!--footer-->
+	<div id="foot">
+		<div class="logo"></div>
+		<div class="box">
+			<p>©2019-2021 DWX256</p>
+			<p>冀ICP备1145141919810</p>
 		</div>
-		<!--footer-->
-		<div id="foot">
-			<div class="logo"></div>
-			<div class="box">
-				<p>©2019-2021 DWX256</p>
-				<p>冀ICP备1145141919810</p>
-			</div>
-			<ul>Links
-				<li><a href="http://www.th-sjy.com/">th-sjy Software</a></li>
-				<li><a href="https://www.jokerps.com//">Joker's Collections</a></li>
-				<li><a href="https://www.bilibili.com/">bilibili</a></li>
-			</ul>
-			<ul>Contact Me
-				<li></li>
-				<li><a href="https://qq.com/" target="_blank"><img src="./image/qq.png" alt="QQ"></a><a href="https://weibo.com/" target="_blank"><img src="./image/weibo.png"></a><a href="mail://wenxuanduan@students.federation.edu.au"></a><img src="./image/mail.png"></li>
-				<li id="time"></li>
-			</ul>
-		</div>
+		<ul>Links
+			<li><a href="http://www.th-sjy.com/">th-sjy Software</a></li>
+			<li><a href="https://www.jokerps.com//">Joker's Collections</a></li>
+			<li><a href="https://www.bilibili.com/">bilibili</a></li>
+		</ul>
+		<ul>Contact Me
+			<li></li>
+			<li><a href="https://qq.com/" target="_blank"><img src="./image/qq.png" alt="QQ"></a><a
+					href="https://weibo.com/" target="_blank"><img src="./image/weibo.png"></a><a
+					href="mail://wenxuanduan@students.federation.edu.au"></a><img src="./image/mail.png"></li>
+			<li id="time"></li>
+		</ul>
+	</div>
 	</body>
 </html>
